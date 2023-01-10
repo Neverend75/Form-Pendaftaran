@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="pertemuan2.css">
+    <title>Form Pendaftaran</title>
+    <h1>Form Pendaftaran</h1>
+  </head>
+  <body><br><br>
+    <div style="display: flex; justify-content: center;">
+      <form action="/action_page.php">
+        <label for="fname">First Name :</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Abdullah"
+          autofocus
+        /><br /><br />
+
+        <label for="lname">Last Name :</label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Ahmad"
+        /><br /><br />
+
+        <label for="eml">Email :</label><br />
+        <input
+          type="email"
+          id="eml"
+          name="eml"
+          placeholder="********@gmail.com"
+        /><br /><br />
+
+        <label for="phn">Phone Number</label><br />
+        <select name="dropdown">
+          <option value="female" selected>+1</option>
+          <option value="female">+966</option>
+          <option value="female">+31</option>
+          <option value="female">+62</option>
+          <option value="female">+86</option>
+          <option value="female">+60</option>
+        </select>
+        <input
+          type="text"
+          id="phn"
+          name="phn"
+          placeholder="821-3456-7890"
+        /><br /><br />
+
+        <label for="ag">Age:</label><br />
+        <input type="number" id="ag" name="ag" /><br /><br />
+
+        <label for="adr">Address :</label><br />
+        <input
+          type="textarea"
+          id="adr"
+          name="adr"
+          placeholder="Cikarang"
+        /><br /><br />
+
+        <label for="klm">Gender :</label><br />
+        <select name="dropdown">
+          <option value="female" selected>Male</option>
+          <option value="female">Female</option>
+          <option value="female">Other</option>
+        </select>
+
+        <br /><br />
+
+        <input type="file" name="fileupload" baccept="image/*" />
+
+        <br /><br />
+
+        <label for="stts">Status :</label><br />
+        <input type="radio" name="status" value="on" selected />Married
+        <input type="radio" name="status" value="on" />Single
+        <input type="radio" name="status" value="on" />Widower
+        <input type="radio" name="status" value="on" />widow
+
+        <br /><br />
+
+        <label for="mkn">Favorite Food :</label><br />
+        <input type="checkbox" name="nasgor" value="on" />Fried Rice
+        <input type="checkbox" name="aym" value="on" />Chicken Rica Rica
+        <input type="checkbox" name="st" value="on" />Soto
+        <input type="checkbox" name="bbr" value="on" />Porridge <br /><br />
+
+        <input type="submit" value="Kirim" />
+      </form>
+    </div><br>
+    <!-- <footer></footer> -->
+    <div class="footer">
+      <h1>Good Luck</h1>
+    </div>
+  </body>
+</html>
